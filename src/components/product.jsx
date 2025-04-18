@@ -11,7 +11,7 @@ class Product extends Component {
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{description}</p>
-          <a href="/" className="btn btn-primary">Hinzufügen</a>
+          <button onClick={this.props.onAdd} href="/" className="btn btn-primary">Hinzufügen</button>
         </div>
       </div>
     }
